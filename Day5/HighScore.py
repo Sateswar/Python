@@ -8,6 +8,6 @@ print(student_scores)
 #Write your code below this row 👇
 maxScore=0
 for score in student_scores:
-    if score > maxScore:
-        maxScore=score
-print("The highest score in the class is: "+str(maxScore)) 
+	if score > maxScore:
+		maxScore=score
+print(f"The highest score in the class is: {maxScore} ") 
